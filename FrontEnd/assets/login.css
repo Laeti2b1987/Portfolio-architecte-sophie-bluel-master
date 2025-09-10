@@ -1,0 +1,108 @@
+/* SECTION LOGIN */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+
+h1 a{
+    text-decoration: none;
+    color: #B1663C;
+}
+
+
+#connect {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#connect h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1D6154;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#loginform {
+  display: flex;
+  flex-direction: column;
+}
+
+#loginform label {
+  
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #3D3D3D
+}
+
+#loginform input[type="email"],
+#loginform input[type="password"] {
+  height: 51px;
+  padding: 0 15px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.09);
+  border-radius: 4px;
+}
+
+#submitButton {
+ 
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+  background-color: #1D6154;
+  border: none;
+  border-radius: 60px;
+  width: 180px;
+  height: 36px;
+  cursor: pointer;
+  
+}
+
+.error-login {
+  background-color: white;
+  color: #B1663C;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 3px solid #B1663C;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.forget {
+display: flex;
+justify-content: center;
+text-align: center;
+font-size: 14px;;
+color: #3D3D3D
+
+}
+
+
+
+/* Footer Mentions légales */
+
+footer{
+    background-color:#FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+footer nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2em;
+}
+
+footer nav ul li {
+  font-size: 14px;
+  color: #000000
+}
